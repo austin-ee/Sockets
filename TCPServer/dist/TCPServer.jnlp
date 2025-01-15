@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TCPServer.jnlp">
+  <information>
+    <title>TCPServer</title>
+    <vendor>Winston</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TCPServer.jar" size="4502" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tcpserver.TCPServer"  name="TCPServer" />
+  <update check="always"/>
+</jnlp>
